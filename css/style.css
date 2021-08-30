@@ -1,0 +1,69 @@
+body {
+    background: url(../img/background.png);
+}
+
+.container {
+    width: 835px;
+    margin: 0 auto;
+}
+
+.logotype {
+    float: left;
+    background: url(../img/palm-tree.png) no-repeat right;
+    width: 267px;
+    height: 154px;
+}
+
+.logotype img{
+    padding-top: 88px;
+}
+
+.logotype-top {
+    margin: 0 6px;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    width: 263px;
+}
+
+.contacts{
+    float: right;
+    color: white;
+    margin-top: 100px;
+}
+
+.photo{
+    margin: 0 auto;
+}
+
+.picture{
+    float: left;
+    margin: 6px;
+    margin-bottom: 70px;
+
+}
+
+.picture img{
+    border: 3px solid grey;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    margin-top: 130px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
